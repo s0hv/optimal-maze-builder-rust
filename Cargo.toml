@@ -1,0 +1,15 @@
+[package]
+name = "optimal-maze-builder"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde_json = "1.0.85"
+serde = { version = "1.0.145", features = ["derive"] }
+serde_repr = "0.1.9"
+tui = "0.19.0"
+crossterm = "0.25.0"
+phf = { version = "0.11.1", features = ["macros"] }
+pathfinding = "3.0.14"
